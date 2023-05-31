@@ -1,0 +1,130 @@
+ body {
+     animation-name: backgroundColorPalette;
+     animation-duration: 5s;
+     animation-iteration-count: infinite;
+     animation-direction: alternate;
+     animation-timing-function: linear;
+     font-style: oblique;
+     font-family: 'Playfair Display', serif;
+     color: blue;
+     text-shadow: 4px 5px 8px white;
+ }
+
+ @keyframes backgroundColorPalette {
+     0% {
+         background: #ee6055;
+     }
+
+     25% {
+         background: #60d394;
+     }
+
+     50% {
+         background: #aaf683;
+     }
+
+     75% {
+         background: #ffd97d;
+     }
+
+     100% {
+         background: #ff9b85;
+     }
+ }
+
+ img {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 200px;
+ }
+
+ .sectionsContainer {
+     display: flex;
+     justify-content: space-between;
+ }
+
+ .count {
+     text-align: center;
+ }
+
+ .wand {
+     border: 5px black solid;
+     margin: 5px;
+     border-radius: 20%;
+ }
+
+ .rewind {
+     border: 5px black solid;
+     margin: 5px;
+     border-radius: 20%;
+ }
+
+ .invisibility {
+     border: 5px black solid;
+     margin: 5px;
+     border-radius: 20%;
+ }
+
+ h2 {
+     text-align: center;
+ }
+
+ .wand2 {
+     display: none;
+     width: 300px;
+     border: 5px brown solid;
+     border-radius: 10%;
+ }
+
+ .rewind2 {
+     display: none;
+     width: 300px;
+     border: 5px green solid;
+     border-radius: 10%;
+ }
+
+ .invisibility2 {
+     display: none;
+     width: 200px;
+     border: 5px blue solid;
+     border-radius: 20%;
+ }
+
+ .title2 {
+     width: 300px;
+     border: 5px green solid;
+     border-radius: 20%;
+ }
+
+ @keyframes title2 {
+     0% {
+         left: 0px;
+         top: 0px;
+     }
+
+     25% {
+         left: 40px;
+         top: 0px;
+     }
+
+     50% {
+         left: 40px;
+         top: 20px;
+     }
+
+     75% {
+         left: 0px;
+         top: 20px;
+     }
+
+     100% {
+         left: 0px;
+         top: 0px;
+     }
+ }
+
+ img {
+     position: relative;
+     animation: title2;
+ }
